@@ -1,1 +1,6 @@
 from tkinker import*
+
+window = Tk()
+window.withdraw()
+
+name = simpledialog.askstring("Enter your name")
